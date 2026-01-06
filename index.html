@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hotel Pomelia &mdash; Eco Boutique sulla costa di Ragusa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="CSS/styles.css" />
+</head>
+
+<body>
+  <header class="site-header" role="banner">
+    <div class="site-header__inner">
+      <button class="menu-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span class="sr-only">Apri il menu</span>
+      </button>
+      <a class="brand" href="#home">
+        <img class="brand__logo" src="IMG/logo2.png" alt="Logo Hotel Pomelia" />
+      </a>
+      <a class="btn btn--outline" href="#contatti">Prenota ora</a>
+    </div>
+    <nav id="primary-navigation" class="site-nav" aria-label="Navigazione principale">
+      <a href="#home">Home</a>
+      <a href="#suites">Suites</a>
+      <a href="#esperienze">Esperienze</a>
+      <a href="#sostenibilita">Sostenibilità</a>
+      <a href="#contatti">Contatti</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__content">
+        <p class="hero__eyebrow">Eco Boutique a Marina di Ragusa</p>
+        <h1 id="hero-title">Il lusso contemporaneo incontra la natura mediterranea</h1>
+        <p class="hero__text">
+          Hotel Pomelia è il primo hotel in Sicilia certificato Società Benefit: un rifugio elegante alimentato da
+          energie rinnovabili, arredato con materiali riciclati e pensato per viaggiatori che amano la Sicilia
+          autentica.
+        </p>
+        <div class="hero__ctas">
+          <a class="btn" href="#suites">Scopri le suites</a>
+          <a class="btn btn--ghost" href="#esperienze">Esperienze locali</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="values" aria-labelledby="values-title">
+      <div class="container">
+        <header class="section-heading">
+          <h2 id="values-title">Tradizione familiare, visione sostenibile</h2>
+          <p>
+            La nuova generazione della famiglia Pomelia reinterpreta l&rsquo;ospitalità siciliana con attenzione al
+            territorio, design essenziale e servizi pensati per il benessere degli ospiti e dell&rsquo;ambiente.
+          </p>
+        </header>
+        <div class="values__grid">
+          <article class="value-card">
+            <h3>Energia pulita</h3>
+            <p>Struttura alimentata da pannelli solari e da fornitori certificati di energia rinnovabile.</p>
+          </article>
+          <article class="value-card">
+            <h3>Design circolare</h3>
+            <p>Arredi creati da artigiani locali con materiali di recupero, per camere uniche e accoglienti.</p>
+          </article>
+          <article class="value-card">
+            <h3>Gusto km 0</h3>
+            <p>Colazioni, mezza pensione e pensione completa con ingredienti biologici provenienti dall&rsquo;orto
+              dell&rsquo;hotel.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="suites" id="suites" aria-labelledby="suites-title">
+      <div class="container">
+        <header class="section-heading">
+          <h2 id="suites-title">Suites mediterranee</h2>
+          <p>Camere luminose con balconi vista mare, materiali naturali e servizi personalizzati per famiglie e giovani
+            coppie.</p>
+        </header>
+        <div class="cards-grid">
+          <article class="card" aria-label="Suite Ulivo">
+            <h3>Suite Ulivo</h3>
+            <p>60 m² di comfort con zona living, terrazza privata e doccia sensoriale rivestita in pietra locale.</p>
+            <ul>
+              <li>Fino a 3 ospiti</li>
+              <li>Filtro aria purificante</li>
+              <li>Set cortesia biologico</li>
+            </ul>
+          </article>
+          <article class="card" aria-label="Suite Pomelia">
+            <h3>Suite Pomelia</h3>
+            <p>La nostra signature suite con arredi artigianali e vasca free-standing con vista sui giardini aromatici.
+            </p>
+            <ul>
+              <li>Fino a 4 ospiti</li>
+              <li>Servizio maggiordomo</li>
+              <li>Colazione in camera inclusa</li>
+            </ul>
+          </article>
+          <article class="card" aria-label="Garden Loft">
+            <h3>Garden Loft</h3>
+            <p>Soluzione immersa nel verde con patio privato, ideale per soggiorni lunghi e viaggiatori digitali.</p>
+            <ul>
+              <li>Smart working corner</li>
+              <li>Cucina green attrezzata</li>
+              <li>Accesso diretto alla spa</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="experiences" id="esperienze" aria-labelledby="experiences-title">
+      <div class="container">
+        <div class="experiences__grid">
+          <header class="section-heading">
+            <h2 id="experiences-title">Esperienze autentiche</h2>
+            <p>La Sicilia sud-orientale raccontata da chi la vive ogni giorno: guide, agricoltori, artigiani, chef.</p>
+          </header>
+          <ul class="highlights">
+            <li>
+              <span class="highlights__title">Trekking e coste</span>
+              <span class="highlights__text">Escursioni lungo le riserve naturali di Vendicari e Pantalica con guide
+                escursionistiche.</span>
+            </li>
+            <li>
+              <span class="highlights__title">Cultura e città barocche</span>
+              <span class="highlights__text">Tour privati a Modica e Ragusa Ibla con storytelling storico e
+                degustazioni.</span>
+            </li>
+            <li>
+              <span class="highlights__title">Ateliers gastronomici</span>
+              <span class="highlights__text">Workshop di cucina siciliana e laboratori dedicati ai prodotti tipici del
+                territorio.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="sustainability" id="sostenibilita" aria-labelledby="sustainability-title">
+      <div class="container">
+        <div class="sustainability__content">
+          <header class="section-heading">
+            <h2 id="sustainability-title">Hotel certificato Società Benefit</h2>
+            <p>Un impegno concreto verso la sostenibilità sociale e ambientale, condiviso con la comunità locale.</p>
+          </header>
+          <ul class="pillars">
+            <li><strong>Biancheria etica:</strong> cotone bio certificato GOTS e canapa, la biancheria dismessa sostiene
+              una Onlus locale.</li>
+            <li><strong>Spiaggia inclusiva:</strong> lido attrezzato, senza barriere architettoniche e con servizi
+              accessibili.</li>
+            <li><strong>Partnership locali:</strong> fornitori selezionati tra aziende agricole e artigiani del
+              territorio.</li>
+            <li><strong>Misurazione impatti:</strong> report annuale su consumi idrici, emissioni e contributi sociali.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials" aria-labelledby="testimonials-title">
+      <div class="container">
+        <header class="section-heading">
+          <h2 id="testimonials-title">Dicono di noi</h2>
+        </header>
+        <div class="testimonials__grid">
+          <figure class="testimonial">
+            <blockquote>
+              “La cura nei dettagli e l&rsquo;attenzione all&rsquo;ambiente si percepiscono in ogni momento. Una Sicilia
+              elegante e autentica.”
+            </blockquote>
+            <figcaption>— Martina &amp; Luca, Milano</figcaption>
+          </figure>
+          <figure class="testimonial">
+            <blockquote>
+              “Esperienza perfetta per famiglie: staff premuroso, cucina a km 0 e spiaggia accessibile davvero per
+              tutti.”
+            </blockquote>
+            <figcaption>— Fam. Russo, Catania</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="contatti" aria-labelledby="cta-title">
+      <div class="container cta__inner">
+        <div>
+          <h2 id="cta-title">Pronto a scrivere il tuo capitolo siciliano?</h2>
+          <p>Contattaci per ricevere il programma personalizzato del tuo soggiorno sostenibile.</p>
+        </div>
+        <div class="cta__actions">
+          <a class="btn" href="mailto:booking@hotelpomelia.it">booking@hotelpomelia.it</a>
+          <a class="btn btn--outline" href="tel:+390932123456">+39 0932 123 456</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <small>© <span id="year"></span> Hotel Pomelia · Marina di Ragusa, Sicilia</small>
+      <nav class="social-links" aria-label="Social media">
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="facebook">
+          <span class="social-links__icon" aria-hidden="true">
+            <img src="social/facebook.svg" alt="" loading="lazy">
+          </span>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="instagram">
+          <span class="social-links__icon" aria-hidden="true">
+            <img src="social/instagram.svg" alt="" loading="lazy">
+          </span>
+        </a>
+        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" aria-label="twitter">
+          <span class="social-links__icon" aria-hidden="true">
+            <img src="social/x.svg" alt="" loading="lazy">
+          </span>
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="linkedin">
+          <span class="social-links__icon" aria-hidden="true">
+            <img src="social/linkedin.svg" alt="" loading="lazy">
+          </span>
+        </a>
+        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" aria-label="youtube">
+          <span class="social-links__icon" aria-hidden="true">
+            <img src="social/youtube.svg" alt="" loading="lazy">
+          </span>
+        </a>
+        <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer" aria-label="tiktok">
+          <span class="social-links__icon" aria-hidden="true">
+            <img src="social/tiktok.svg" alt="" loading="lazy">
+          </span>
+        </a>
+      </nav>
+      <a class="site-footer__back" href="#home">Torna su</a>
+    </div>
+  </footer>
+  <script>
+    const yearEl = document.getElementById('year');
+    if (yearEl) {
+      yearEl.textContent = new Date().getFullYear();
+    }
+
+    const headerEl = document.querySelector('.site-header');
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelectorAll('#primary-navigation a');
+
+    if (headerEl && menuToggle) {
+      menuToggle.addEventListener('click', () => {
+        const isOpen = menuToggle.getAttribute('aria-expanded') === 'true';
+        const nextState = !isOpen;
+        menuToggle.setAttribute('aria-expanded', String(nextState));
+        headerEl.classList.toggle('site-header--open', nextState);
+      });
+
+      navLinks.forEach((link) => {
+        link.addEventListener('click', () => {
+          menuToggle.setAttribute('aria-expanded', 'false');
+          headerEl.classList.remove('site-header--open');
+        });
+      });
+    }
+  </script>
+</body>
+
+</html>
