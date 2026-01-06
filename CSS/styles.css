@@ -253,7 +253,7 @@ a:hover {
     padding: 9rem 1.5rem 6rem;
     background:
         linear-gradient(135deg, rgba(76, 109, 71, 0.78), rgba(77, 53, 43, 0.82)),
-        url('background.png.jpg') center/cover;
+        url('../IMG/background.png.jpg') center/cover;
     color: #fff;
 }
 
